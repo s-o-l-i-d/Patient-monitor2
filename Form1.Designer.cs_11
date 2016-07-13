@@ -1,0 +1,401 @@
+﻿namespace PatientMonitor1._4
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.P1PulseLabel = new System.Windows.Forms.Label();
+            this.patient1BreathingLabel = new System.Windows.Forms.Label();
+            this.patient1SysBloodLabel = new System.Windows.Forms.Label();
+            this.patient1DiasBloodLabel = new System.Windows.Forms.Label();
+            this.patient1TemperatureLabel = new System.Windows.Forms.Label();
+            this.patientNumberLabel1 = new System.Windows.Forms.Label();
+            this.minPatient1 = new System.Windows.Forms.TextBox();
+            this.maxPatient1 = new System.Windows.Forms.TextBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.patient1SetCombo = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.patient1SetButton = new System.Windows.Forms.Button();
+            this.testLabel = new System.Windows.Forms.Label();
+            this.pulseMinMaxLabel = new System.Windows.Forms.Label();
+            this.breathingMinMaxLabel = new System.Windows.Forms.Label();
+            this.SysBMinMaxLabel = new System.Windows.Forms.Label();
+            this.DiasBMinMaxLabel = new System.Windows.Forms.Label();
+            this.temperatureMinMaxLabel = new System.Windows.Forms.Label();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabControl2 = new System.Windows.Forms.TabControl();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.groupBox1.SuspendLayout();
+            this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            this.tabControl2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            this.tabPage4.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // P1PulseLabel
+            // 
+            this.P1PulseLabel.AutoSize = true;
+            this.P1PulseLabel.Location = new System.Drawing.Point(6, 30);
+            this.P1PulseLabel.Name = "P1PulseLabel";
+            this.P1PulseLabel.Size = new System.Drawing.Size(36, 13);
+            this.P1PulseLabel.TabIndex = 0;
+            this.P1PulseLabel.Text = "Pulse:";
+            // 
+            // patient1BreathingLabel
+            // 
+            this.patient1BreathingLabel.AutoSize = true;
+            this.patient1BreathingLabel.Location = new System.Drawing.Point(6, 74);
+            this.patient1BreathingLabel.Name = "patient1BreathingLabel";
+            this.patient1BreathingLabel.Size = new System.Drawing.Size(76, 13);
+            this.patient1BreathingLabel.TabIndex = 1;
+            this.patient1BreathingLabel.Text = "Breathing rate:";
+            this.patient1BreathingLabel.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // patient1SysBloodLabel
+            // 
+            this.patient1SysBloodLabel.AutoSize = true;
+            this.patient1SysBloodLabel.Location = new System.Drawing.Point(6, 124);
+            this.patient1SysBloodLabel.Name = "patient1SysBloodLabel";
+            this.patient1SysBloodLabel.Size = new System.Drawing.Size(120, 13);
+            this.patient1SysBloodLabel.TabIndex = 2;
+            this.patient1SysBloodLabel.Text = "Systolic Blood Pressure:";
+            // 
+            // patient1DiasBloodLabel
+            // 
+            this.patient1DiasBloodLabel.AutoSize = true;
+            this.patient1DiasBloodLabel.Location = new System.Drawing.Point(6, 178);
+            this.patient1DiasBloodLabel.Name = "patient1DiasBloodLabel";
+            this.patient1DiasBloodLabel.Size = new System.Drawing.Size(124, 13);
+            this.patient1DiasBloodLabel.TabIndex = 3;
+            this.patient1DiasBloodLabel.Text = "Diastolic Blood Pressure:";
+            this.patient1DiasBloodLabel.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // patient1TemperatureLabel
+            // 
+            this.patient1TemperatureLabel.AutoSize = true;
+            this.patient1TemperatureLabel.Location = new System.Drawing.Point(6, 226);
+            this.patient1TemperatureLabel.Name = "patient1TemperatureLabel";
+            this.patient1TemperatureLabel.Size = new System.Drawing.Size(67, 13);
+            this.patient1TemperatureLabel.TabIndex = 4;
+            this.patient1TemperatureLabel.Text = "Temperature";
+            // 
+            // patientNumberLabel1
+            // 
+            this.patientNumberLabel1.AutoSize = true;
+            this.patientNumberLabel1.Location = new System.Drawing.Point(84, 8);
+            this.patientNumberLabel1.Name = "patientNumberLabel1";
+            this.patientNumberLabel1.Size = new System.Drawing.Size(46, 13);
+            this.patientNumberLabel1.TabIndex = 5;
+            this.patientNumberLabel1.Text = "Patient1";
+            // 
+            // minPatient1
+            // 
+            this.minPatient1.Location = new System.Drawing.Point(63, 63);
+            this.minPatient1.Name = "minPatient1";
+            this.minPatient1.Size = new System.Drawing.Size(100, 20);
+            this.minPatient1.TabIndex = 6;
+            this.minPatient1.Text = "0";
+            // 
+            // maxPatient1
+            // 
+            this.maxPatient1.Location = new System.Drawing.Point(63, 109);
+            this.maxPatient1.Name = "maxPatient1";
+            this.maxPatient1.Size = new System.Drawing.Size(100, 20);
+            this.maxPatient1.TabIndex = 7;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.patient1SetButton);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.patient1SetCombo);
+            this.groupBox1.Controls.Add(this.minPatient1);
+            this.groupBox1.Controls.Add(this.maxPatient1);
+            this.groupBox1.Location = new System.Drawing.Point(249, 8);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(200, 196);
+            this.groupBox1.TabIndex = 9;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Set Min/Max Values";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // patient1SetCombo
+            // 
+            this.patient1SetCombo.FormattingEnabled = true;
+            this.patient1SetCombo.Items.AddRange(new object[] {
+            "Pulse",
+            "Breathing Rate",
+            "Systolic Blood Pressure",
+            "Diastolic Blood Pressure",
+            "Temperature"});
+            this.patient1SetCombo.Location = new System.Drawing.Point(6, 27);
+            this.patient1SetCombo.Name = "patient1SetCombo";
+            this.patient1SetCombo.Size = new System.Drawing.Size(121, 21);
+            this.patient1SetCombo.TabIndex = 8;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(10, 66);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(24, 13);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Min";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(10, 109);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(27, 13);
+            this.label2.TabIndex = 10;
+            this.label2.Text = "Max";
+            // 
+            // patient1SetButton
+            // 
+            this.patient1SetButton.Location = new System.Drawing.Point(31, 155);
+            this.patient1SetButton.Name = "patient1SetButton";
+            this.patient1SetButton.Size = new System.Drawing.Size(132, 23);
+            this.patient1SetButton.TabIndex = 11;
+            this.patient1SetButton.Text = "SET";
+            this.patient1SetButton.UseVisualStyleBackColor = true;
+            this.patient1SetButton.Click += new System.EventHandler(this.patient1SetButton_Click);
+            // 
+            // testLabel
+            // 
+            this.testLabel.AutoSize = true;
+            this.testLabel.Location = new System.Drawing.Point(252, 207);
+            this.testLabel.Name = "testLabel";
+            this.testLabel.Size = new System.Drawing.Size(61, 13);
+            this.testLabel.TabIndex = 10;
+            this.testLabel.Text = "Set Values:";
+            this.testLabel.Click += new System.EventHandler(this.testLabel_Click);
+            // 
+            // pulseMinMaxLabel
+            // 
+            this.pulseMinMaxLabel.AutoSize = true;
+            this.pulseMinMaxLabel.Location = new System.Drawing.Point(6, 43);
+            this.pulseMinMaxLabel.Name = "pulseMinMaxLabel";
+            this.pulseMinMaxLabel.Size = new System.Drawing.Size(53, 13);
+            this.pulseMinMaxLabel.TabIndex = 11;
+            this.pulseMinMaxLabel.Text = "Min: Max:";
+            // 
+            // breathingMinMaxLabel
+            // 
+            this.breathingMinMaxLabel.AutoSize = true;
+            this.breathingMinMaxLabel.Location = new System.Drawing.Point(6, 89);
+            this.breathingMinMaxLabel.Name = "breathingMinMaxLabel";
+            this.breathingMinMaxLabel.Size = new System.Drawing.Size(53, 13);
+            this.breathingMinMaxLabel.TabIndex = 12;
+            this.breathingMinMaxLabel.Text = "Min: Max:";
+            // 
+            // SysBMinMaxLabel
+            // 
+            this.SysBMinMaxLabel.AutoSize = true;
+            this.SysBMinMaxLabel.Location = new System.Drawing.Point(6, 139);
+            this.SysBMinMaxLabel.Name = "SysBMinMaxLabel";
+            this.SysBMinMaxLabel.Size = new System.Drawing.Size(53, 13);
+            this.SysBMinMaxLabel.TabIndex = 13;
+            this.SysBMinMaxLabel.Text = "Min: Max:";
+            // 
+            // DiasBMinMaxLabel
+            // 
+            this.DiasBMinMaxLabel.AutoSize = true;
+            this.DiasBMinMaxLabel.Location = new System.Drawing.Point(6, 191);
+            this.DiasBMinMaxLabel.Name = "DiasBMinMaxLabel";
+            this.DiasBMinMaxLabel.Size = new System.Drawing.Size(53, 13);
+            this.DiasBMinMaxLabel.TabIndex = 14;
+            this.DiasBMinMaxLabel.Text = "Min: Max:";
+            // 
+            // temperatureMinMaxLabel
+            // 
+            this.temperatureMinMaxLabel.AutoSize = true;
+            this.temperatureMinMaxLabel.Location = new System.Drawing.Point(6, 239);
+            this.temperatureMinMaxLabel.Name = "temperatureMinMaxLabel";
+            this.temperatureMinMaxLabel.Size = new System.Drawing.Size(53, 13);
+            this.temperatureMinMaxLabel.TabIndex = 15;
+            this.temperatureMinMaxLabel.Text = "Min: Max:";
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Location = new System.Drawing.Point(242, 1);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(474, 301);
+            this.tabControl1.TabIndex = 16;
+            this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.groupBox1);
+            this.tabPage1.Controls.Add(this.temperatureMinMaxLabel);
+            this.tabPage1.Controls.Add(this.testLabel);
+            this.tabPage1.Controls.Add(this.patient1TemperatureLabel);
+            this.tabPage1.Controls.Add(this.DiasBMinMaxLabel);
+            this.tabPage1.Controls.Add(this.patientNumberLabel1);
+            this.tabPage1.Controls.Add(this.SysBMinMaxLabel);
+            this.tabPage1.Controls.Add(this.patient1DiasBloodLabel);
+            this.tabPage1.Controls.Add(this.P1PulseLabel);
+            this.tabPage1.Controls.Add(this.breathingMinMaxLabel);
+            this.tabPage1.Controls.Add(this.pulseMinMaxLabel);
+            this.tabPage1.Controls.Add(this.patient1SysBloodLabel);
+            this.tabPage1.Controls.Add(this.patient1BreathingLabel);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(466, 275);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(192, 74);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // tabControl2
+            // 
+            this.tabControl2.Controls.Add(this.tabPage3);
+            this.tabControl2.Controls.Add(this.tabPage4);
+            this.tabControl2.Location = new System.Drawing.Point(0, 0);
+            this.tabControl2.Name = "tabControl2";
+            this.tabControl2.SelectedIndex = 0;
+            this.tabControl2.Size = new System.Drawing.Size(236, 298);
+            this.tabControl2.TabIndex = 17;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.label3);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(228, 272);
+            this.tabPage3.TabIndex = 0;
+            this.tabPage3.Text = "tabPage3";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Controls.Add(this.label4);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(228, 272);
+            this.tabPage4.TabIndex = 1;
+            this.tabPage4.Text = "tabPage4";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(38, 75);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(128, 13);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Login Etc etc comes here";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(6, 90);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(215, 13);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Displaying accessible personnel comes here";
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(728, 314);
+            this.Controls.Add(this.tabControl2);
+            this.Controls.Add(this.tabControl1);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            this.tabControl2.ResumeLayout(false);
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
+            this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label P1PulseLabel;
+        private System.Windows.Forms.Label patient1BreathingLabel;
+        private System.Windows.Forms.Label patient1SysBloodLabel;
+        private System.Windows.Forms.Label patient1DiasBloodLabel;
+        private System.Windows.Forms.Label patient1TemperatureLabel;
+        private System.Windows.Forms.Label patientNumberLabel1;
+        private System.Windows.Forms.TextBox minPatient1;
+        private System.Windows.Forms.TextBox maxPatient1;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox patient1SetCombo;
+        private System.Windows.Forms.Button patient1SetButton;
+        private System.Windows.Forms.Label testLabel;
+        private System.Windows.Forms.Label pulseMinMaxLabel;
+        private System.Windows.Forms.Label breathingMinMaxLabel;
+        private System.Windows.Forms.Label SysBMinMaxLabel;
+        private System.Windows.Forms.Label DiasBMinMaxLabel;
+        private System.Windows.Forms.Label temperatureMinMaxLabel;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabControl tabControl2;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.Label label4;
+    }
+}
+
